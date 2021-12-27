@@ -24,7 +24,7 @@ handleChange=(e)=>{
         <h1 className="m-24 text-center ">Convert your markdown</h1>
         <div className='row'>
           <div className='col-md-6 '>
-            <textarea placeholder='Enter your markdown here' id="editor" className="form-control text" value={markdown} onChange={this.handleChange}  />
+            <textarea placeholder='yagonchiza zerkun Moyina' id="editor" className="form-control text" value={markdown} onChange={this.handleChange}  />
           </div>
           <div id="preview" className='col-md-6 '>
             <div className="preview" dangerouslySetInnerHTML={{__html:texts}}  />
